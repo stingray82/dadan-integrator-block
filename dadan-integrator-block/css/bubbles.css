@@ -1,0 +1,56 @@
+/* Apply to your custom block container to override theme's content size */
+.bubble-integrator-block {
+    --wp--style--global--content-size: 100%; /* Override the theme's content size */
+    max-width: 100%; /* Ensure the block uses the full width */
+    width: 100%; /* Ensure the block uses the full width */
+}
+
+/* Ensure the iframe container respects full width and proper aspect ratio */
+.bubble-integrator-embed-container {
+    max-width: 100%; /* Ensure the iframe container respects full width */
+    width: 100%; /* Ensure the iframe container respects full width */
+    position: relative;
+    overflow: hidden;
+}
+
+/* Ensure the iframe itself respects the full width and maintains aspect ratio */
+.bubble-integrator-embed-container iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* Specific styles for each size preset */
+.bubble-integrator-small {
+    width: 40%;
+    padding-bottom: 30%; /* 4:3 aspect ratio */
+}
+
+.bubble-integrator-medium {
+    width: 60%;
+    padding-bottom: 33.75%; /* 16:9 aspect ratio */
+}
+
+.bubble-integrator-large {
+    width: 80%;
+    padding-bottom: 38.1%; /* 21:9 aspect ratio */
+}
+
+/* Manual settings controlled by inline styles */
+.bubble-integrator-manual {
+    /* No specific styles needed here; handled by inline styles */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .bubble-integrator-small,
+    .bubble-integrator-medium,
+    .bubble-integrator-large {
+        width: 100%;
+        padding-bottom: 56.25%; /* Force 16:9 aspect ratio on smaller screens */
+    }
+}
+ 

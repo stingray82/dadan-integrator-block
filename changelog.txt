@@ -1,2 +1,5 @@
+= 0.9.1 14 August 2025 =
+New: First Automatic Update Test
+
 = 0.9 13 August 2025 =
 New: Initial Release

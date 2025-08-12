@@ -1,30 +1,25 @@
-Bubble Integrator Block
-=======================
+Dadan Integrator Block
+======================
 
 This is a simple block for Gutenberg that will allow much slicker embedding of
-bubbles within your WordPress site
+Dadan’s within your WordPress site
 
  
 
 Why create an integrator?
 -------------------------
 
-The native embed option is poor it includes the aync options you can modify the
-embed to by pass this but its not a smooth operation and thus the integrator was
-born.
+As its right in your Gutenberg editor, takes a URL and embeds it on the page and
+allows you to quickly change the options
 
  
 
-**Native Embedded:**
-
-![](https://raw.githubusercontent.com/stingray82/repo-images/main/bubbles-intergrator-block/native-bubble-embed.png)
+ 
 
  
 
-**Manual Embed using the integrator and it comes in some quick input sizes as
+**Manual Embed using the Integrator and it comes in some quick input sizes as
 well**
-
-![](https://raw.githubusercontent.com/stingray82/repo-images/main/bubbles-intergrator-block/Manual-Embed.png)
 
  
 
@@ -34,18 +29,16 @@ well**
 
 **Add Block**
 
-![](https://raw.githubusercontent.com/stingray82/repo-images/main/bubbles-intergrator-block/Icon.png)
-
  
 
  
 
 **Block Interface**
 
-![](https://raw.githubusercontent.com/stingray82/repo-images/main/bubbles-intergrator-block/edit-block.png)
+ 
 
  
 
-Please note there is a known issue with some FSE themes overriding the CSS of
-the integrator you may need to modify your styles for your installation, i am
-happy for a suggestion if anyone has one for fixing this across all FSE themes
+ 
+
+\-Readme is a work in progress

@@ -5,7 +5,7 @@
  * Tested up to:      6.8.2
  * Requires at least: 6.7
  * Requires PHP:      8.0
- * Version:           0.9.1
+ * Version:           0.9.2
  * Author:            STINGRAY82
  * Author URI:        https://reallyusefulplugins.com
  * License:           GPL-2.0-or-later
@@ -331,7 +331,7 @@ add_action('wp_enqueue_scripts', 'dadan_integrator_enqueue_block_styles');
 
 
 // Define plugin constants (keep version in sync with header)
-define('RUP_DADAN_INTEGRATOR_VERSION', '0.9.1');
+define('RUP_DADAN_INTEGRATOR_VERSION', '0.9.2');
 
 // ──────────────────────────────────────────────────────────────────────────
 //  Updater bootstrap (plugins_loaded priority 1):

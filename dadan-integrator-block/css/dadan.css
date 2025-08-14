@@ -1,0 +1,56 @@
+/* -------------------------------------------------------
+   Dadan Integrator — stable sizing (no manual mode)
+   ------------------------------------------------------- */
+
+/* Base wrapper */
+.dadan-integrator-block {
+  position: relative;
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  border: 0;
+  aspect-ratio: 16 / 9; /* default for all presets unless overridden */
+}
+
+/* Generic iframe fill rule */
+.dadan-integrator-block iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+/* ------- Size presets (slightly taller to bury inner scrollbar) ------- */
+.dadan-integrator-block.size-container {
+  width: 100%;
+  aspect-ratio: calc(16 / (9 * 1.02));   /* ~2% taller */
+}
+
+.dadan-integrator-block.size-small {
+  width: 55%;
+  aspect-ratio: calc(4 / (3 * 1.03));    /* ~3% taller */
+}
+
+.dadan-integrator-block.size-medium {
+  width: 65%;
+  aspect-ratio: calc(16 / (9 * 1.03));   /* ~3% taller */
+}
+
+.dadan-integrator-block.size-large {
+  width: 80%;
+  /* empirically taller to avoid controls clipping on 21:9 */
+  aspect-ratio: calc(21 / (9 * 1.40));   /* ~40% taller than 21:9 */
+}
+
+/* --- Respect TT5 content widths like core embeds ------------------------ */
+.wp-site-blocks .dadan-integrator-block:not(.alignwide):not(.alignfull){
+  max-width: var(--wp--style--global--content-size, 100%);
+}
+.wp-site-blocks .dadan-integrator-block.alignwide{
+  max-width: var(--wp--style--global--wide-size, 100%);
+}
+.wp-site-blocks .dadan-integrator-block.alignfull{
+  max-width: 100%;
+}

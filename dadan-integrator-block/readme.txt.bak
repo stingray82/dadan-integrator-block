@@ -4,7 +4,7 @@ Donate link: https://reallyusefulplugins.com/donate
 Tags: dadan, Video, Embed
 Requires at least: 6.7
 Tested up to: 6.8.2
-Stable tag: 0.9.4
+Stable tag: 0.9.5
 Requires PHP: 8.0
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html

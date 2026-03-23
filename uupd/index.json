@@ -1,19 +1,19 @@
 {
     "slug": "dadan-integrator-block",
     "name": "Dadan Integrator Block",
-    "version": "0.9.5",
+    "version": "1.0",
     "author": "Stingray82",
     "author_homepage": "https://reallyusefulplugins.com",
     "requires_php": "8.0",
     "requires": "6.7",
-    "tested": "6.8.2",
+    "tested": "6.9.4",
     "sections": {
         "description": "Allows you to add dadan.io videos embedded on your WordPress sites easily and quickly",
-        "installation": "1. Upload the `dadan-integrator-block` folder to the `/wp-content/plugins/` directory.<br />\r\n2. Go to a Guttenberg page you will now have a new block.<br />\r\n3. use the configurator to modify the use bubbles embed",
+        "installation": "1. Upload the `dadan-integrator-block` folder to the `/wp-content/plugins/` directory.<br />\n2. Go to a Guttenberg page you will now have a new block.<br />\n3. use the configurator to modify the use bubbles embed",
         "frequently_asked_questions": "",
-        "changelog": "<h4>0.9.5 15 August 2025</h4><ul><li>Tweaked: Fill Container is now default setting</li></ul><h4>0.9.4 14 August 2025</h4><ul><li>New: Final Update Test</li></ul><h4>0.9.3 14 August 2025</h4><ul><li>New: First Full Update Test</li><li>New: Readme Updates</li></ul><h4>0.9.2 13 August 2025</h4><ul><li>New: Second Automatic Update Test</li></ul><h4>0.9.1 13 August 2025</h4><ul><li>New: First Automatic Update Test</li></ul><h4>0.9 12 August 2025</h4><ul><li>New: Initial Release</li></ul>"
+        "changelog": "<h4>1.0 23 March 2026</h4><ul><li>Update: Updater to 2.0-Alpha</li><li>Update: Compatibility</li><li>New: Final 1.0 Release</li></ul><h4>0.9.5 15 August 2025</h4><ul><li>Tweaked: Fill Container is now default setting</li></ul><h4>0.9.4 14 August 2025</h4><ul><li>New: Final Update Test</li></ul><h4>0.9.3 14 August 2025</h4><ul><li>New: First Full Update Test</li><li>New: Readme Updates</li></ul><h4>0.9.2 13 August 2025</h4><ul><li>New: Second Automatic Update Test</li></ul><h4>0.9.1 13 August 2025</h4><ul><li>New: First Automatic Update Test</li></ul><h4>0.9 12 August 2025</h4><ul><li>New: Initial Release</li></ul>"
     },
-    "last_updated": "2025-08-15 11:04:22",
+    "last_updated": "2026-03-23 15:04:31",
     "download_url": "https://github.com/stingray82/dadan-integrator-block/releases/latest/download/dadan-integrator-block.zip",
     "banners": {
         "low": "https://raw.githubusercontent.com/stingray82/dadan-integrator-block/main/uupd/banner-772x250.png",

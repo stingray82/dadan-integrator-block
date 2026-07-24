@@ -3,8 +3,8 @@ Contributors: reallyusefulplugins
 Donate link: https://reallyusefulplugins.com/donate
 Tags: dadan, Video, Embed
 Requires at least: 6.7
-Tested up to: 6.8.2
-Stable tag: 0.9.5
+Tested up to: 6.9.4
+Stable tag: 1.0
 Requires PHP: 8.0
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -23,6 +23,11 @@ Allows you to add dadan.io videos embedded on your WordPress sites easily and qu
 == Frequently Asked Questions ==
 
 == Changelog ==
+= 1.0 23 March 2026 =
+Update: Updater to 2.0-Alpha
+Update: Compatibility
+New: Final 1.0 Release
+
 = 0.9.5 15 August 2025 =
 Tweaked: Fill Container is now default setting 
 

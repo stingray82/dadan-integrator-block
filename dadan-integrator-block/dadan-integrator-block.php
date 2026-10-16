@@ -2,10 +2,10 @@
 /**
  * Plugin Name:       Dadan Integrator Block
  * Description:       A custom block to embed Dadan videos with configurable UI options.
- * Tested up to:      7.0.2
+ * Tested up to:      7.1.3
  * Requires at least: 6.7
  * Requires PHP:      8.0
- * Version:           1.0.1
+ * Version:           1.0.2
  * Author:            Stingray82
  * Author URI:        https://reallyusefulplugins.com
  * License:           GPL-2.0-or-later
@@ -14,7 +14,7 @@
  * Website:           https://reallyusefulplugins.com
  */
 
-define('RUP_DADAN_INTEGRATOR_VERSION', '1.0.1');
+define('RUP_DADAN_INTEGRATOR_VERSION', '1.0.2');
 
 /**
  * Inline block JS (no <script> tags). Runs only in the editor with proper deps/timing.

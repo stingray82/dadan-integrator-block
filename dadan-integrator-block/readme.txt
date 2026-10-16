@@ -1,13 +1,9 @@
 === dadan-integrator-block ===
-Contributors: reallyusefulplugins
-Donate link: https://reallyusefulplugins.com/donate
 Tags: dadan, Video, Embed
 Requires at least: 6.7
-Tested up to: 7.0.2
-Stable tag: 1.0.1
+Tested up to: 7.1.3
+Stable tag: 1.0.2
 Requires PHP: 8.0
-License: GPL-2.0-or-later
-License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 Allows you to add https://www.dadan.io/ videos embedded on your WordPress sites easily and quickly
 == Description ==
@@ -23,6 +19,10 @@ Allows you to add dadan.io videos embedded on your WordPress sites easily and qu
 == Frequently Asked Questions ==
 
 == Changelog ==
+= 1.0.2 16 October 2026 =
+Updated: UUPD Dependency Updated to Version 2.1 Stable
+Updated: Deploy Methodology
+
 = 1.0.1 24 July 2026 =
 Updated: UUPD Dependency Updated to Version 2.0 Stable
 
